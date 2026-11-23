@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "appId": "cc.zaoxiang.canvas",
+  "version": "0.1.8",
+  "hash": "482bd6172833",
+  "minShellVersion": "0.1.4",
+  "publishedAt": "2026-11-23T03:39:53.299Z",
+  "critical": false,
+  "releaseNotes": "## 造像画布 v0.1.8 更新说明\n\n- 全新桌面端一体化顶栏升级：macOS 端采用无白条透明内嵌顶栏，红黄绿三键居中融入暗房/宣纸侧栏并支持顶栏拖拽与双击最大化；Windows 端保留原生标题栏与分屏贴靠体验，实时跟随「暗房调色台 / 宣纸画案」双主题自动变色。\n- 精修首页与工作区顶部排版：消除重复标题栏与厚重分割线，优化双端侧栏图标、品牌字样与账号胶囊的光学对齐；完善画布工作区、文档工作区、欢迎页及窄窗停靠 AI 导演面板时的顶部避让细节。\n- 修复在线热更新解压空占位文件时的兼容性异常，同步更新全部内置画布节点、文档扩展与创作工具至最新版本。",
+  "tag": "v0.1.8",
+  "hot": {
+    "modules": {
+      "app-core": {
+        "file": "app-core-809ec543db73.zxhot",
+        "sha256": "809ec543db73039132628da7c0472745ace32736dddd01c41d50bac0cab58a1c",
+        "bytes": 6622253,
+        "signature": "KE+ZAVjGMuwYgp6bWib4/GCo3t7FzPS3jpx9fVlRIDWQ/WSi1VEAn9s5AfLyNkE4tSepAfRYK4ddeLo/HsX+BQ=="
+      },
+      "web-ui": {
+        "file": "web-ui-8f1558bbd11e.zxhot",
+        "sha256": "8f1558bbd11ee9c369249e6d58ca1c97b6bfe569ad6da971fa8a83b3796801f6",
+        "bytes": 9908229,
+        "signature": "L9vSw3lArTVIaM6wRA3/votWF155DI5ipZvENPcTd9u04qRw/2hNzq/n01CDbLfziEHwncNaIFrxcxkl5297CQ=="
+      },
+      "plugins": {
+        "file": "plugins-e5022b7805b6.zxhot",
+        "sha256": "e5022b7805b658f4b4a16bd91db8e2001e39e83d8fdeb46d9bd37ef60711f806",
+        "bytes": 6860979,
+        "signature": "eTeK7WnIVhwpBgp+4sq75SK3hvdC2HezPtLEumM9QNzz3KHmKVChcVwXi7MdQghl4JYYPC6UBrXdg2HwVZnbDw=="
+      },
+      "mcp": {
+        "file": "mcp-51707ec7c04d.zxhot",
+        "sha256": "51707ec7c04d7e1045ee71388ce0aa79d2247d84bc4110e2ac818f326a5de7db",
+        "bytes": 3137487,
+        "signature": "QYm+btWQQQ7z/glTi1ABl2Okx6FsSqWuJhBecT1dIoftnI1ThBqOjuXCPhjLzIMXWQRwd/0zuWDt6RoFXakCAQ=="
+      }
+    }
+  },
+  "signature": "3Gn1vNhyDx5ASJ12SWM3bMli4ThdZ66oiwkB/ZhYsD9Qe+3Youvsa1j7+CXD2r4DAj13mH7tLRITkL+V+JU/CQ=="
+}
