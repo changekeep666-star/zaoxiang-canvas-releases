@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "appId": "cc.zaoxiang.canvas",
+  "version": "0.1.11",
+  "hash": "29ko5evne67ho",
+  "minShellVersion": "0.1.4",
+  "publishedAt": "2026-11-24T19:06:39.707Z",
+  "critical": false,
+  "releaseNotes": "## 造像画布 v0.1.11 更新说明\n\n- 创作流与多端交互全面成熟：新增首页一键新建空项目与未登录直达登录引导，AI 导演侧边栏支持默认右侧停靠与尺寸记忆，新增 Cmd/Ctrl+K 全局命令面板、选中节点一键发给 AI 导演以及 AI 画布批量操作单步撤销体验。\n- 跨平台与外部工具协同升级：补全 macOS 与 Windows 快捷键对称、触控板缩放、中文剧本 GB18030 自动识别、双端文件剪贴板与 Windows 便携版隔离升级；新增项目级与设置级实时跨端同步总线，以及外部 MCP 服务重启自动无感重连与并发排队保护。\n- 全软件稳定性与安全深度打磨：修复画布卸载落盘、拖曳复制中断、HTML 预览样式实体、提示词编辑净化、3D 导演台上下文、长耗时任务防卡死与异常网络重试等数十项边界问题，并大幅优化画布缩放流畅度与大图缩略图加载速度。",
+  "tag": "v0.1.11",
+  "hot": {
+    "modules": {
+      "app-core": {
+        "file": "app-core-2d30afce3249.zxhot",
+        "sha256": "2d30afce3249b3878b096fea8544cb187bf99ccd4e4b377838db3179de30eed4",
+        "bytes": 6643475,
+        "signature": "jBDwwou1KvM0YzCTPF1UI6ltR8GjAnjDVIchNl7zujWn69V6DeHoEJgG/C5gckB3NE1QXg4hOXFwYumeJtIsDA=="
+      },
+      "web-ui": {
+        "file": "web-ui-01366eb536aa.zxhot",
+        "sha256": "01366eb536aa1f57989ec4bcd9fbb776168a5172ce0ca479205ee54448f22e12",
+        "bytes": 9925856,
+        "signature": "kjqzwDUYCMk6uytiUzh9H6moPp7GmU1j1eELVK0ZoukkW+BLrA8q+2A2N/xRKfGVQCi/cnO0BNClVRLUNTpPAw=="
+      },
+      "plugins": {
+        "file": "plugins-f2dc6e5a5022.zxhot",
+        "sha256": "f2dc6e5a5022c7bef1913822d2240b549fdb63d70329cf6c5262c59aad81e14c",
+        "bytes": 6936757,
+        "signature": "VrEYc7tYfKTAQdv4RkwpqqKHQ3fV56b8ZEv/n3IHovxHdFp22Ew6LzTKLrtNQYkQa4BL5KNMTG6KqhW4cJoNBA=="
+      },
+      "mcp": {
+        "file": "mcp-db30c9158998.zxhot",
+        "sha256": "db30c915899815c2c70750a88c9520bab2b856521a5dccfae9ae5b5e680547c3",
+        "bytes": 3139087,
+        "signature": "J3ciouL2xc5xv5mjuLs0K3j6GZohd/fM9dbn46xj7+IC99tUxzQIc7dfy9MfQFtI+eiwi5BzjL092GtIWGmjAQ=="
+      }
+    }
+  },
+  "shells": {
+    "darwin-arm64": {
+      "file": "zaoxiang-canvas-0.1.11-mac-arm64.zip",
+      "sha256": "62c9ad62f13b3ba945131ee890cd1c4af93258a9e88e9f495bc904d00adc422b",
+      "bytes": 87769191,
+      "signature": "zu2Jy2lp4+v2rgw/I+188L1V4meg88XqMakUuO5auhtamAUWxjulMnV7SuVLiVz8v0JChnhDCHYT3Ws/pQErAA=="
+    },
+    "darwin-x64": {
+      "file": "zaoxiang-canvas-0.1.11-mac-x64.zip",
+      "sha256": "668406b20af975129edf0f260a37397d24c63b304c59cbbc664259016fb0393d",
+      "bytes": 90814924,
+      "signature": "BYRMJuhJIWvO4hGOifdFwhygZbmr1eeUn+bu20ukKz+7Ohj8uSrYbq7cnOev1dPS+9w9uwc1DQ2Ec3k5pJv8Cw=="
+    },
+    "win32-x64-setup": {
+      "file": "zaoxiang-canvas-0.1.11-Setup.exe",
+      "sha256": "48904ea7284bd6c53e11b1a8ac57fd2a8abb344d20d2d6066a9ac85fc4266d07",
+      "bytes": 36341217,
+      "signature": "+s3YChbEYhjkF2aK+6liaEFPE1uAAI7IOjvKAjfe7jH/JUOGjQeq8mzrb+KtMlMRsMFJSPSiUo+Az8HjNqcmDg=="
+    },
+    "win32-x64-portable": {
+      "file": "zaoxiang-canvas-0.1.11-win-x64-portable.zip",
+      "sha256": "84e37567e9c88800e9dfe31878ef421b81f83748590ad7925cce441ec50b08ac",
+      "bytes": 108638411,
+      "signature": "TFldaZE+Cl0nemLyXEdu4/Rpr2KH+YkyKz3WlaGRccnzGcoZa2I43o90CWZ47YOym56zvDUF4jzPgXaXNW25BA=="
+    }
+  },
+  "signature": "eo7YwMywRsfEHR+wPwJo8Fwo3r98GxF1Y1KIw6IErmDbVPF1eZQd+hsobtx2VuSMDfPXmht2CiWJxWmPC1PtCg=="
+}
